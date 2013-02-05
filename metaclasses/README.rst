@@ -9,7 +9,7 @@ metaclasses-demystified
 +++++++++++++++++++++++
 
 Following along with and experimenting with ideas in a blog post on
-`yeleman.com`.
+`yeleman.com`_.
 
 
 .. _yeleman.com: http://yeleman.com/python-metaclasses-demystified/
