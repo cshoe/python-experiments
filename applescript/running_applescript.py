@@ -2,7 +2,7 @@ import os
 
 
 def main():
-    cmd = """osascript<<END
+    cmd = """osascript <<END
     set vol to output volume of (get volume settings)
     set vol_interval to 5
     if vol > (100 - vol_interval) then
