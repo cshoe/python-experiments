@@ -1,26 +1,25 @@
-"""Messing around with the built in `type` function. Trying to internalize
+"""
+Messing around with the built in `type` function. Trying to internalize
 how it is used to create classes.
-
 """
 
 
 class EqualityTest(object):
-    """Dumb object used to test equality.
-
     """
-
+    Dumb object used to test equality.
+    """
     def __init__(self, foo):
         self.foo = foo
 
 
 def equality_test():
-    """Use `type` to try construct an object that is equal to on constructed
+    """
+    Use `type` to try construct an object that is equal to on constructed
     with a normal class.
 
     Doesn't appear that this can be done.
 
     TODO: Find out what is different about the objects.
-
     """
     print '**** Equality Test ****'
 
