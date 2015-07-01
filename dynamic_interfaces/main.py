@@ -67,7 +67,10 @@ def main():
     client_kls = client_factory()
     client = client_kls()
 
-    widgets = client.get_widgets()
+    widgets = client.get_widgets('username', 'email@bar.com')
+    # or.... how to tell the difference?
+    # widgets = client.get_widgets('username')
+
     print widgets
 
 
